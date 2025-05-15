@@ -21,7 +21,7 @@ class IsolationForest(iForest):
 
     def predict(self, X):
         y_pred = super(IsolationForest, self).predict(X)
-        y_pred = np.where(y_pred > 0, 0, 1)
+        y_pred = np.where(y_pred > 0, 1, 0)
         return y_pred
 
     def evaluate(self, X, y_true):
