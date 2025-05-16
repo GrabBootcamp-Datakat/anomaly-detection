@@ -89,7 +89,7 @@ anomaly-detection/
 │   │   └── svm_demo.py
 │   └── train/
 │       ├── models/
-│       │   ├── **init**.py
+│       │   ├── __init__.py
 │       │   ├── decision_tree.py
 │       │   ├── invariants_miner.py
 │       │   ├── isolation_forest.py
