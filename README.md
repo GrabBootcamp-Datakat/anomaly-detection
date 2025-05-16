@@ -57,7 +57,7 @@ Anomaly detection is crucial in various domains such as fraud detection, network
    ```
    
 4. **Training and Demo with models**
-5. 
+
    Go to the demo directory
    
    ```bash
