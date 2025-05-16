@@ -66,22 +66,22 @@ anomaly-detection/
 anomaly-detection/
 ├── module/
 │   ├── demo/
-│   │   ├── decision\_tree\_demo.py
-│   │   ├── invariants\_miner\_demo.py
-│   │   ├── invariants\_miner\_without\_labels\_demo.py
-│   │   ├── isolation\_forecast\_demo.py
-│   │   ├── log\_clustering\_demo.py
-│   │   ├── lr\_demo.py
-│   │   └── svm\_demo.py
+│   │   ├── decision_tree_demo.py
+│   │   ├── invariants_miner_demo.py
+│   │   ├── invariants_miner_without_labels_demo.py
+│   │   ├── isolation_forecast_demo.py
+│   │   ├── log_clustering_demo.py
+│   │   ├── lr_demo.py
+│   │   └── svm_demo.py
 │   └── train/
 │       ├── models/
 │       │   ├── **init**.py
-│       │   ├── decision\_tree.py
-│       │   ├── invariants\_miner.py
-│       │   ├── isolation\_forest.py
-│       │   ├── log\_clustering.py
+│       │   ├── decision_tree.py
+│       │   ├── invariants_miner.py
+│       │   ├── isolation_forest.py
+│       │   ├── log_clustering.py
 │       │   ├── lr.py
-│       │   └── svm\_demo.py
+│       │   └── svm_demo.py
 │       ├── dataloader.py
 │       ├── preprocessing.py
 │       └── utils.py
