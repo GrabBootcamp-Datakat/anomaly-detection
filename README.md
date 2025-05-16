@@ -4,7 +4,7 @@ This project demonstrates how to perform anomaly detection using machine learnin
 
 ## Overview
 
-Anomaly detection is crucial in various domains such as fraud detection, network security, and system health monitoring. This repository provides a framework to preprocess data, engineer features, train machine learning models, and detect anomalies in a scalable manner using PySpark.
+Anomaly detection is crucial in various domains such as fraud detection, network security, and system health monitoring. This repository provides a framework to preprocess data, engineer features, train machine learning models, and detect anomalies in a scalable manner using Scikit-Learn.
 
 ## Features
 
