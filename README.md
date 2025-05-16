@@ -70,7 +70,7 @@ Anomaly detection is crucial in various domains such as fraud detection, network
    python decision_tree_demo.py
    ```
    
-   Remember to replace the data paths with your actual directories.
+   Remember to replace the data paths inside each demo file with your actual directories.
 
 ## Project Structure
 
