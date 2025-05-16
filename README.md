@@ -55,8 +55,22 @@ Anomaly detection is crucial in various domains such as fraud detection, network
    ```bash
    python parse/main.py
    ```
+   
+4. **Training and Demo with models**
+5. 
+   Go to the demo directory
+   
+   ```bash
+   cd module/demo
+   ```
 
-   Replace the paths with your actual directories.
+   Use the `*_demo.py` script to preprocess train whichever model you desired in the listed options. Example:
+
+   ```bash
+   python decision_tree_demo.py
+   ```
+   
+   Remember to replace the data paths with your actual directories.
 
 ## Project Structure
 
