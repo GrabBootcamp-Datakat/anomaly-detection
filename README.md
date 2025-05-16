@@ -62,12 +62,36 @@ Anomaly detection is crucial in various domains such as fraud detection, network
 
 ```
 anomaly-detection/
-├── module/                 # Directory to save trained models
-├── parse/                  # Script for data preprocessing
-├── merge.py                # Script for feature engineering
-├── label.py                # Script for model training and anomaly detection
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── module/                               # Directory to train and demo models
+anomaly-detection/
+├── module/
+│   ├── demo/
+│   │   ├── decision\_tree\_demo.py
+│   │   ├── invariants\_miner\_demo.py
+│   │   ├── invariants\_miner\_without\_labels\_demo.py
+│   │   ├── isolation\_forecast\_demo.py
+│   │   ├── log\_clustering\_demo.py
+│   │   ├── lr\_demo.py
+│   │   └── svm\_demo.py
+│   └── train/
+│       ├── models/
+│       │   ├── **init**.py
+│       │   ├── decision\_tree.py
+│       │   ├── invariants\_miner.py
+│       │   ├── isolation\_forest.py
+│       │   ├── log\_clustering.py
+│       │   ├── lr.py
+│       │   └── svm\_demo.py
+│       ├── dataloader.py
+│       ├── preprocessing.py
+│       └── utils.py
+├── parse/                               # Script for data preprocessing   
+│   └── drain.py
+│   └── main.py
+├── merge.py                             # Script for feature engineering
+├── label.py                             # Script for model training and anomaly detection
+├── requirements.txt                     # Python dependencies
+└── README.md                            # Project documentation
 ```
 
 ## Contributing
